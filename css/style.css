@@ -59,6 +59,15 @@
     border: 2px solid rgb(201, 201, 201);
 
 }
+
+
+
+
+
+
+
+
+
 .btn{
     outline: none;
     cursor: pointer;
@@ -79,12 +88,29 @@
 
 }
 
+
+
+
+
+
+
+
+
 .background{
     background: rgba(0, 0, 0, 0.7) url('../pics/bg.jpg');
     background-size: cover;
     background-blend-mode: darken;
 
 }
+
+
+
+
+
+
+
+
+
 .first-sec{
     display: flex;
     justify-content: center;
@@ -125,19 +151,32 @@
 .second-sec{
     padding: 0 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .heading-services{
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
+
+
 .service{
     display: flex;
     max-width: 900px;
     margin: 3em auto;
 }
-.first-serv{
 
-}
 .sec-serv{
     flex-direction: row-reverse;
 }
@@ -155,6 +194,68 @@
     height: 200px;
     width: 300px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.heading-about{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.container_about{
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    padding: 50px 0;
+    
+}
+.left_side{
+    width: 50%;
+    padding-top: 15%;
+    
+}
+.left_side p{
+     margin-bottom: 5%;
+}
+
+.right_side{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.right_side img{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .third-sec{
     background-color: #ffffea;
@@ -193,12 +294,36 @@
     margin: 1rem 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
   padding: 1em;
     display: flex;
     justify-content: center;
     background-color: #e8e8e8;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .burger{
     width: 35px;
@@ -216,6 +341,15 @@
     width: 27px;
 }
 
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:800px){
     
     .nav-left{
@@ -228,7 +362,7 @@
     }
     .navbar{
         flex-direction: column;
-        height: 4vh;
+        height: 30px;
     }
     .navbar-resp{
         height: 300px;
@@ -278,6 +412,18 @@
         padding: 300px 20%;
     }
 
+    .right_side{
+        display: none;
+        width: 0;
+    }
+    .left_side{
+        width: 50%;
+        text-align: center;
+        padding-top: 0;
+    }
+    .container_about{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:650px) {
